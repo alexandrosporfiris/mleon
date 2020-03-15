@@ -1502,13 +1502,14 @@ input[type='text'] {
 .modal-body {
   padding: 0;
 }
-.modal {
-  text-align: center;
-}
 
 .modal {
   padding-top: 30%;
   padding-bottom: 30%;
+}
+
+.insta2{
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -1516,16 +1517,21 @@ input[type='text'] {
     display: inline-block;
     vertical-align: middle;
     content: ' ';
-    height: 100%;
+    
   }
   .modal {
     padding-top: 0%;
     padding-bottom: 0%;
   }
 }
+@media screen and (max-width: 768px) {
+  .insta2{
+    display: block;
+  }
 
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
+  .insta1{
+    display: none;
+  }
+ 
 }
+
