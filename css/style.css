@@ -1508,7 +1508,7 @@ input[type='text'] {
   padding-bottom: 30%;
 }
 
-.insta2{
+.insta2 {
   display: none;
 }
 
@@ -1517,7 +1517,6 @@ input[type='text'] {
     display: inline-block;
     vertical-align: middle;
     content: ' ';
-    
   }
   .modal {
     padding-top: 0%;
@@ -1525,13 +1524,17 @@ input[type='text'] {
   }
 }
 @media screen and (max-width: 768px) {
-  .insta2{
+  .insta2 {
     display: block;
   }
 
-  .insta1{
+  .insta1 {
     display: none;
   }
- 
 }
 
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 50px;
+  }
+}
