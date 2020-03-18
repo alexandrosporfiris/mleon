@@ -1531,10 +1531,15 @@ input[type='text'] {
   .insta1 {
     display: none;
   }
+  .paddigsIndex{
+    padding-top: 0%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   h3 {
     font-size: 50px;
   }
+
+ 
 }
