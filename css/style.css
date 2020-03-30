@@ -20,10 +20,16 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 1.5;
-  color: gray;
-  background: black;
+  background:#ff6a6a;
+  height: 100%;
+}
+.main{
+  background: linear-gradient(#ff6a6a , #f79862, #ffae6a ,#ffc284);
 }
 
+.gallery-main{
+  background: linear-gradient(#ff6a6a 40% , #f79862, #ffae6a);
+}
 #page {
   position: relative;
   overflow-x: hidden;
@@ -47,7 +53,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
+ 
   content: '';
 }
 
@@ -200,7 +206,7 @@ figure {
   top: 40px;
   left: 0;
   text-align: left;
-  background: #000;
+  background: linear-gradient(#ff6a6a 40% , #f79862, #ffae6a);
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -209,6 +215,7 @@ figure {
   -webkit-transition: 0s;
   -o-transition: 0s;
   transition: 0s;
+ 
 }
 .colorlib-nav ul li.has-dropdown .dropdown:before {
   bottom: 100%;
@@ -219,7 +226,7 @@ figure {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #000;
+  border-bottom-color: #ff6a6a;
   border-width: 8px;
   margin-left: -8px;
 }
@@ -233,14 +240,14 @@ figure {
 .colorlib-nav ul li.has-dropdown .dropdown li a {
   padding: 2px 0;
   display: block;
-  color: #999999;
+  color: white;
   line-height: 1.2;
   text-transform: none;
   font-size: 13px;
   letter-spacing: 0;
 }
 .colorlib-nav ul li.has-dropdown .dropdown li a:hover {
-  color: #fff;
+  color: white;
 }
 .colorlib-nav ul li.has-dropdown:hover a,
 .colorlib-nav ul li.has-dropdown:focus a {
@@ -361,6 +368,8 @@ figure {
   opacity: 0.5;
   background: #000;
   z-index: -1;
+  border-bottom-left-radius: 2%; 
+  border-bottom-right-radius: 2%;
 }
 .video-hero .display-t {
   display: table;
@@ -486,7 +495,8 @@ figure {
 .services {
   margin-bottom: 30px;
   position: relative;
-  background: black;
+  background: transparent;
+
   padding: 20px;
   z-index: 0;
 }
@@ -548,7 +558,7 @@ figure {
   }
 }
 .colorlib-about-flex .about-desc {
-  background: black;
+  background: transparent;
   padding: 3em;
 }
 @media screen and (max-width: 768px) {
@@ -566,6 +576,10 @@ figure {
   width: 100%;
   z-index: 0;
   overflow: hidden;
+ 
+  border: 0.1em solid;
+  border-color: transparent;
+  border-radius: 3%;
 }
 .gallery-img .desc {
   position: absolute;
@@ -574,6 +588,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
+  border-radius: 3%;
 }
 .gallery-img .desc h2 {
   color: #fff;
@@ -603,6 +618,7 @@ figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 3%;
 }
 .gallery-img img {
   display: block;
@@ -962,7 +978,7 @@ input[type='text'] {
 }
 
 #colorlib-footer {
-  background: #323232;
+  
   color: rgba(255, 255, 255, 0.6) !important;
   padding-top: 6em;
 }
@@ -1016,7 +1032,7 @@ input[type='text'] {
   font-weight: 700;
 }
 #colorlib-footer .copy {
-  background: black;
+  background: transparent;
   padding: 1.2em 0;
 }
 #colorlib-footer .copy p {
@@ -1042,7 +1058,7 @@ input[type='text'] {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: #1a1a1a;
+  background: linear-gradient(#ff6a6a 40% , #f79862, #ffae6a);
   top: 0;
   right: 0;
   top: 0;
@@ -1058,6 +1074,9 @@ input[type='text'] {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  border-radius: 15%;
+  opacity: 0.95;
+  height: 35%;
 }
 @media screen and (max-width: 768px) {
   #colorlib-offcanvas {
@@ -1072,10 +1091,10 @@ input[type='text'] {
   transform: translateX(0px);
 }
 #colorlib-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 #colorlib-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
 }
 #colorlib-offcanvas ul {
   padding: 0;
@@ -1109,7 +1128,6 @@ input[type='text'] {
   -moz-osx-font-smoothing: grayscale;
   content: '\e0c5';
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1148,7 +1166,7 @@ input[type='text'] {
   width: 50px;
   height: 50px;
   display: table;
-  background: black;
+  background:transparent;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 50%;
