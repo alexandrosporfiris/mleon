@@ -209,7 +209,7 @@
 
 			<!-- slide show -->
 			<div class="container">
-				<div class="modal fade and carousel slide" id="lightbox">
+				<div class="modal fade and carousel slide" id="lightbox" data-ride="carousel">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-body">
@@ -237,7 +237,8 @@
 											alt="Second slide">
 									</div>
 									<div class="item">
-										<img src="images/coffee_king/gallery-3.jpg" alt="Third slide">
+										<img class="img-responsive" src="images/coffee_king/gallery-3.jpg"
+											alt="Third slide">
 									</div>
 									<div class="item active">
 										<img class="img-responsive" src="images/coffee_king/gallery-4.jpg"
@@ -248,7 +249,8 @@
 											alt="Second slide">
 									</div>
 									<div class="item">
-										<img src="images/coffee_king/gallery-6.jpg" alt="Third slide">
+										<img class="img-responsive" src="images/coffee_king/gallery-6.jpg"
+											alt="Third slide">
 									</div>
 									<div class="item active">
 										<img class="img-responsive" src="images/coffee_king/gallery-7.jpg"
@@ -259,7 +261,8 @@
 											alt="Second slide">
 									</div>
 									<div class="item">
-										<img src="images/coffee_king/gallery-9.jpg" alt="Third slide">
+										<img class="img-responsive" src="images/coffee_king/gallery-9.jpg"
+											alt="Third slide">
 									</div>
 									<div class="item active">
 										<img class="img-responsive" src="images/coffee_king/gallery-10.jpg"
@@ -270,14 +273,15 @@
 											alt="Second slide">
 									</div>
 									<div class="item">
-										<img src="images/coffee_king/gallery-12.jpg" alt="Third slide">
+										<img class="img-responsive" src="images/coffee_king/gallery-12.jpg"
+											alt="Third slide">
 									</div>
 								</div><!-- /.carousel-inner -->
 								<a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left"></span>
+									<span class="glyphicon icon-prev"></span>
 								</a>
 								<a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right"></span>
+									<span class="glyphicon icon-next"></span>
 								</a>
 							</div><!-- /.modal-body -->
 						</div><!-- /.modal-content -->
@@ -331,9 +335,28 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
+	<script src="js/jquery.touchSwipe.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	
 
+	<script>
+		$(document).ready(function () {
+
+			//Enable swiping...
+			$(".carousel-inner").swipe({
+				//Generic swipe handler for all directions
+				swipeLeft: function (event, direction, distance, duration, fingerCount) {
+					$(this).parent().carousel('next');
+				},
+				swipeRight: function () {
+					$(this).parent().carousel('prev');
+				},
+				//Default is 75px, set to 0 for demo so any distance triggers swipe
+				threshold: 0
+			});
+		});
+	</script>
 </body>
 
 </html>
