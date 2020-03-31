@@ -20,7 +20,7 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 1.5;
-  background:#ff6a6a;
+  background: linear-gradient(#ff6a6a , #f79862, #ffae6a ,#ffc284);
   height: 100%;
 }
 .main{
@@ -1563,6 +1563,14 @@ input[type='text'] {
 }
 
 
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+
+/* Throbber */
 .blocks {
   height: 100vh;
   display: flex;
@@ -1608,9 +1616,4 @@ input[type='text'] {
   }
 }
 
-
-.center {
-  margin: auto;
-  width: 50%;
-  text-align: center;
-}
+/* Throbber */ 
