@@ -338,7 +338,7 @@
 	<script src="js/jquery.touchSwipe.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	
+
 
 	<script>
 		$(document).ready(function () {
@@ -346,7 +346,7 @@
 			//Enable swiping...
 			$(".carousel-inner").swipe({
 				//Generic swipe handler for all directions
-				swipeLeft: function (event, direction, distance, duration, fingerCount) {
+				swipeLeft: function (event, direction, distance, fingerCount) {
 					$(this).parent().carousel('next');
 				},
 				swipeRight: function () {
