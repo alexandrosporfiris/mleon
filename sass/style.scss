@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 	}
 	#colorlib-logo {
-		font-size: 24px;
+		font-size: 20px;
 		margin: 0;
 		padding: 0;
 		text-transform: uppercase;
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			i{
 				color: $brand-white;
 				display: block;
-				font-size: 60px;
+				font-size: 40px;
 				font-weight: normal;
 				margin-bottom: 10px;
 			}
@@ -467,28 +467,28 @@ h1, h2, h3, h4, h5, h6, figure {
 				span{
 					position: relative;
 					&:before, &:after{
-						width: 50px;
+						width: 25px;
 						height: 2px;
 					}
 					&:before{
-						left: -60px;
+						left: -40px;
 					}
 					&:after{
-						right: -60px;
+						right: -40px;
 					}
 				}
 			}
 		}
 		h2{
 			color: $brand-white;
-			font-size: 80px;
+			font-size: 40px;
 			margin-bottom: 20px;
 			text-transform: uppercase;
 			strong {
 				font-weight: 700;
 			}
 			@media screen and (max-width: $screen-sm) {
-				font-size: 60px;
+				font-size: 40px;
 			}
 		}
 		p{
@@ -553,22 +553,22 @@ h1, h2, h3, h4, h5, h6, figure {
 			bottom: 10px;
 			left: -10px;
 			right: 0;
-			width: 24px;
-			height:24px;
+			width: 20px;
+			height:20px;
 			content: '';
 			background: $brand-primary;
 			z-index: -1;
 			@include border-radius(50%);
 		}
 		i{
-			font-size: 50px;
+			font-size: 25px;
 			color: $brand-black;
 			z-index: 1;
 		}
 	}
 	.desc{
 		h3{
-			font-size: 24px;
+			font-size: 20px;
 			font-weight: 700;
 			text-transform: uppercase;
 		}
@@ -739,7 +739,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .article-entry{
 	background: lighten($brand-black,98%);
 	.blog-img{
-		height: 250px;
+		height: 225px;
 		display: block;
 		position: relative;
 		@media screen and(max-width: $screen-sm){
@@ -781,7 +781,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .f-blog{
 	position: relative;
-	padding-left: 80px;
+	padding-left: 40px;
 	margin-bottom: 40px;
 	.blog-img{
 		position: absolute;
@@ -789,7 +789,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		left: 0;
 		display: block;
 		width: 70px;
-		height: 60px;
+		height: 40px;
 		float: left;
 	}
 	.desc{
@@ -812,8 +812,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin-bottom: 20px;
 	z-index: 0;
 	.staff-img{
-		width: 150px;
-		height: 150px;
+		width: 125px;
+		height: 125px;
 		display: block;
 		margin: 0 auto;
 		@include border-radius(50%);
@@ -822,7 +822,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		// 	height: 500px;
 		// }
 		// @media screen and(max-width: $screen-xs){
-		// 	height: 250px;
+		// 	height: 225px;
 		// }
 	}
 	.desc{
@@ -832,7 +832,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		margin-top: -2em;
 		background: lighten($brand-black,100%);
 		h3{
-			font-size: 24px;
+			font-size: 20px;
 			margin-bottom: 10px;
 		}
 		span{
@@ -891,7 +891,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	-o-box-shadow: none;
 	box-shadow: none;
 	border: 1px solid lighten($brand-black,94%);;
-	font-size: 16px !important;
+	font-size: 20px !important;
 	font-weight: 300;
 	background: lighten($brand-black,100%);
 	@include border-radius(0px);
@@ -904,7 +904,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
 input[type="text"] {
-	height: 50px;
+	height: 25px;
 }
 .form-group{
 	margin-bottom: 30px;
@@ -950,7 +950,7 @@ input[type="text"] {
 .colorlib-heading {
 	margin-bottom: 5em;
 	h2{
-		font-size: 50px;
+		font-size: 25px;
 		font-weight: 700;
 		margin-bottom: 30px;
 		position: relative;
@@ -1036,7 +1036,7 @@ input[type="text"] {
 
 	h4 {
 		margin-bottom: 30px;
-		font-size: 24px;
+		font-size: 20px;
 		color: darken($brand-white,10%);
 		text-transform: uppercase;
 		letter-spacing: 3px;
@@ -1155,15 +1155,15 @@ input[type="text"] {
 		visibility: visible;
 	}
 	a {
-		width: 50px;
-		height: 50px;
+		width: 25px;
+		height: 25px;
 		display: table;
 		background: rgba($brand-black,1);
 		color: $brand-white;
 		text-align: center;
 		@include border-radius(50%);
 		i {
-			height: 50px;
+			height: 25px;
 			display: table-cell;
 			vertical-align: middle;
 
@@ -1390,7 +1390,7 @@ input[type="text"] {
 .btn-outline {
 	background: none;
 	border: 2px solid lighten($brand-black, 50%);
-	font-size: 16px;
+	font-size: 20px;
 	@include transition(.3s);
 	&:hover, &:focus, &:active {
 		box-shadow: none;
@@ -1410,7 +1410,7 @@ input[type="text"] {
 		@include transition(.2s);
 	}
 	&:hover {
-		padding-right: 50px;
+		padding-right: 25px;
 		i {
 			color: $brand-white;
 			right: 18px;

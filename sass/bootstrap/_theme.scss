@@ -176,7 +176,7 @@
     &,
     &:hover,
     &:focus {
-      color: #fff;
+      color: #f0ab31;
       @include gradient-vertical($start-color: $dropdown-link-active-bg, $end-color: darken($dropdown-link-active-bg, 5%));
     }
   }

@@ -55,7 +55,7 @@ $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~20px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
@@ -289,7 +289,7 @@ $zindex-modal:             1050 !default;
 
 // Extra small screen / phone
 //** Deprecated `$screen-xs` as of v3.0.1
-$screen-xs:                  480px !default;
+$screen-xs:                  440px !default;
 //** Deprecated `$screen-xs-min` as of v3.2.0
 $screen-xs-min:              $screen-xs !default;
 //** Deprecated `$screen-phone` as of v3.0.1
@@ -851,7 +851,7 @@ $pre-scrollable-max-height:   340px !default;
 //##
 
 //** Horizontal offset for forms and lists.
-$component-offset-horizontal: 180px !default;
+$component-offset-horizontal: 140px !default;
 //** Text muted color
 $text-muted:                  $gray-light !default;
 //** Abbreviations and acronyms border color
