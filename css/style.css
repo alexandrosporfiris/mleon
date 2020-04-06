@@ -1584,7 +1584,7 @@ input[type='text'] {
 }
 
 .orange {
-  --bg: linear-gradient(-50deg, #fbab7e 0%, #f7ce68 100%);
+  --bg: linear-gradient(-50deg, #011f4b  0%, #005b96 100%);
   margin-right: var(--hm);
   animation: attract-orange var(--animation);
 }
