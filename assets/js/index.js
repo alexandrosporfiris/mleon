@@ -1,3 +1,3 @@
 function sendEmail() {
-	window.open('mailto:test@example.com');
+	window.open('mailto:themelon@gmail.com');
 }
