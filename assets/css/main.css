@@ -1181,7 +1181,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color: #f5f1f1;
 		}
 
 /* Wrapper */
