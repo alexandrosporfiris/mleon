@@ -1,0 +1,164 @@
+
+/* html elements */
+html{
+    background-color: #007f91;
+}
+
+body{
+    
+    background: linear-gradient( #005561, #006573, #007f91);
+    font-size: 18px;
+    height: 100%;
+}
+
+a{
+    color: black;
+}
+
+@media (max-width: 575.98px) { 
+    body{
+        font-size: 14px;
+    }
+}
+
+h6{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #006573; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #006573; 
+  }
+
+/* scrollbar */
+
+/* html elements */
+
+
+/* navbar */
+.nav-link {
+    color: white ;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav-link:hover {
+    color: grey ;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white;
+    color: black ;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: white ;
+    text-decoration: none;
+    background-color: #006573;
+;
+}
+
+/* navbar */
+
+
+/* main conteiners */
+
+.home_main{
+    height: 800px;
+}
+
+.services_main{
+    height: 743px;
+}
+
+
+@media (max-width: 575.98px) { 
+    .home_main{
+        height: 540px;
+    }
+
+    .services_main{
+        height: 490px;
+    }
+    /* .insta_square{
+        max-height:460px;
+    }
+    .insta_parallel{
+        max-height:540px;
+    } */
+}
+
+@media (max-width: 360px) { 
+    .nav-link {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    
+}
+
+/* main conteiners */
+
+
+/* cards */
+.card-title-home{
+    font-size: 35px !important;
+}
+
+.card-text-home{
+    font-size: 25px!important;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 0px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+.card-footer {
+    background-color: #007f91;
+    border: 1px , #007f91;
+}
+
+@media (max-width: 575.98px) { 
+   
+    .card-title-home{
+        font-size: 25px !important;
+    }
+    
+    .card-text-home{
+        font-size: 15px!important;
+    }
+}
+
+/* cards */
+
